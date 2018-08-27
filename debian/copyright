@@ -1,0 +1,78 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ymw16
+Source: www.xao.ac.cn/ymw16/
+
+Files:     cn.h
+           dmdtau.c
+           dora.c
+           fermibubble.c
+           frb_d.c
+           galcen.c
+           gum.c
+           lmc.c
+           localbubble.c
+           ne_crd.c
+           nps.c
+           smc.c
+           spiral.c
+           thick.c
+           thin.c
+           ymw16.c
+           ymw16_ne.c
+           ymw16par.c
+Copyright: 2016-2017 J. M. Yao, R. N. Manchester, N. Wang.
+License:   GPL-3.0+
+ This file is part of the YMW16 program. YMW16 is a model for the
+ distribution of free electrons in the Galaxy, the Magellanic Clouds
+ and the inter-galactic medium that can be used to estimate distances
+ for real or simulated pulsars and fast radio bursts (FRBs) based on
+ their position and dispersion measure.
+ .
+ YMW16 is free software: you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ YMW16 is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License,
+ available at http://www.gnu.org/licenses/, for more details.
+ .
+ Please report any issues or bugs at
+ https://bitbucket.org/psrsoft/ymw16/issues/new/ or directly to the
+ authors. Please provide an example illustrating the problem.
+ .
+ Jumei Yao (yaojumei@xao.ac.cn), Richard N Manchester
+ (dick.manchester@csiro.au), Na Wang (na.wang@xao.ac.cn).
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+Files:     make_ymw16
+           spiral.txt
+           ymw16par.txt
+Copyright: __NO_COPYRIGHT_NOR_LICENSE__
+License:   __NO_COPYRIGHT_NOR_LICENSE__
+
+Files:     README
+Copyright: 2016-2017 J. M. Yao, R. N. Manchester, N. Wang.
+License:   GPL-3.0+
+ YMW16 is free software: you can redistribute it and/or modify　it
+ under the terms of the GNU General Public License as published by the
+ Free Software Foundation, either version 3 of the License, or (at your
+ option) any later version.
+ .
+ YMW16 is distributed in the hope that it will be useful,　but WITHOUT
+ ANY WARRANTY; without even the implied warranty of　MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE. See the　GNU General Public License,
+ available at http://www.gnu.org/licenses/, for more details.
+ .
+ Jumei Yao (yaojumei@xao.ac.cn), Richard N Manchester
+ (dick.manchester@csiro.au), Na Wang (na.wang@xao.ac.cn)
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ Version 3 can be found in `/usr/share/common-licenses/GPL-3'.
+
+#----------------------------------------------------------------------------
+# Files marked as NO_LICENSE_TEXT_FOUND may be covered by the following
+# license/copyright files.

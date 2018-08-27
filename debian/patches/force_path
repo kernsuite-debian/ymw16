@@ -1,0 +1,24 @@
+Description: set default for YMW16_DIR
+
+--- ymw16-1.3.2.orig/ymw16.c
++++ ymw16-1.3.2/ymw16.c
+@@ -192,7 +192,7 @@ int main(int argc, char *argv[])
+   if(!strcmp(dirname,"NULL")){
+     if(getenv("YMW16_DIR")==NULL){
+       printf("Warning: YMW16_DIR set to local directory\n");
+-      strcpy(dirname,"./");
++      strcpy(dirname,"/usr/share/ymw16");
+     }else{
+       strcpy(dirname,getenv("YMW16_DIR"));
+     }
+--- ymw16-1.3.2.orig/ymw16_ne.c
++++ ymw16-1.3.2/ymw16_ne.c
+@@ -112,7 +112,7 @@ int main(int argc, char *argv[])
+ if(!strcmp(dirname,"NULL")){
+     if(getenv("YMW16_DIR")==NULL){
+       printf("Warning: YMW16_DIR set to local directory\n");
+-      strcpy(dirname,"./");
++      strcpy(dirname,"/usr/share/ymw16");
+     }else{
+       strcpy(dirname,getenv("YMW16_DIR"));
+     }
